@@ -3,12 +3,12 @@
 The Most Powerful Library Of Instagram To Create A Bot Like Discord.js.
 
 ## Installation
- `$ npm install instagram.js` 
+ `$ npm install @cycloneaddons/instagram.js` 
 
 ## Setup
 
 ```js
-const Instagram = require("instagram.js");
+const Instagram = require("@cycloneaddons/instagram.js");
 const client = new Instagram.Client();
 
 client.on("ready", () => {
