@@ -1,5 +1,5 @@
 {
-  "name": "instagram.js",
+  "name": "@cycloneaddons/instagram.js",
   "version": "1.0.0",
   "description": "The Most Powerful Library Of Instagram To Create A Bot Like Discord.js.",
   "main": "src/index.js",
