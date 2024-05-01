@@ -1,0 +1,35 @@
+{
+  "name": "instagram.js",
+  "version": "1.0.0",
+  "description": "The Most Powerful Library Of Instagram To Create A Bot Like Discord.js.",
+  "main": "src/index.js",
+  "types": "./typings/index.d.ts",
+  "author": "CycloneAddons",
+  "keywords": ["Instagram","instagram.js", "insta.js", "instagram framework", "instagram bot", "insta bot"],
+  "exports": {
+    ".": [
+      {
+        "require": "./src/index.js",
+        "import": "./esm/index.mjs"
+      },
+      "./src/index.js"
+    ],
+    "./esm": "./esm/index.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@discordjs/collection": "^1.5.3",
+    "get-urls": "^10.0.0",
+    "instagram-private-api": "^1.46.1",
+    "jimp": "^0.22.8",
+    "instagram_mqtt": "^1.2.3",
+    "node-fetch": "^2.7.0"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CycloneAddons/instagram.js"
+  }
+}
