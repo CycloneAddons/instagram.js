@@ -6,6 +6,10 @@
   "types": "./typings/index.d.ts",
   "author": "CycloneAddons",
   "keywords": ["Instagram","instagram.js", "insta.js", "instagram framework", "instagram bot", "insta bot"],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "exports": {
     ".": [
       {
