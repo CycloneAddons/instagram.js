@@ -1,10 +1,11 @@
 {
   "name": "@cycloneaddons/instagram.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Most Powerful Library Of Instagram To Create A Bot Like Discord.js.",
   "main": "src/index.js",
   "types": "./typings/index.d.ts",
   "author": "CycloneAddons",
+  "license": "MIT",
   "keywords": ["Instagram","instagram.js", "insta.js", "instagram framework", "instagram bot", "insta bot"],
   "publishConfig": {
     "access": "public",
