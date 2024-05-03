@@ -22,7 +22,7 @@ client.on("messageCreate", (message) => {
 
   if (message.content === "!ping") {
   
-  message.send(!"pong") 
+  message.send("!pong") 
   // message.chat.send("!pong");
   }
 

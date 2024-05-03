@@ -182,8 +182,15 @@ class User {
    * @returns {Promise<boolean>}
    */
   async isFollowClient() {
+    const fetchFollowing = await this.client.ig.feed.accountFollowing(this.id)
+    fetchFollowing.query = this.client.user.username.replace(/[._]/g, '');
+    const data = await fetchFollowing.items();
+    return data?.some(item => item.username === this.client.user.username);
+    /*
+    Throwing Error
+
     const friendshipStatus = await this.client.ig.friendship.show(this.id);
-    return friendshipStatus.followed_by;
+    return friendshipStatus.followed_by;*/
   }
   /**
    * Check if this user follows a specific user
