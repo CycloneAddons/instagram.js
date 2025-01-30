@@ -256,7 +256,7 @@ class Client extends EventEmitter {
       return;
     }
     this.emit("rawFbns", data);
-    if (data.pushCategory === "new_follower") {
+    if (data.pushCategory === "user_followed") {
       const user = await this.fetchUser(data.sourceUserId);
       this.emit("newFollower", user);
     }
